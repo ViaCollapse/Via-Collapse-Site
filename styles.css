@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 /* Общие стили */
+@charset "utf-8";
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -87,94 +87,4 @@ body {
     .subheading {
         font-size: 1.2rem;
     }
-=======
-/* Общие стили */
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-    color: #fff;
-    overflow-x: hidden;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #ff6f61;
-    text-decoration: none;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #ff6f61;
-}
-
-.hero {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.subheading {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.cta-button {
-    padding: 0.8rem 2rem;
-    border: none;
-    background: #ff6f61;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.cta-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px #ff6f61;
-}
-
-/* Адаптивность */
-@media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-    .subheading {
-        font-size: 1.2rem;
-    }
->>>>>>> d4a3ae9713692e3765672ad04fb5c23e1f43addf
 }
