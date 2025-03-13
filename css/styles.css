@@ -83,6 +83,7 @@ body {
     .hero-content h1 {
         font-size: 2rem;
     }
+
     .subheading {
         font-size: 1.2rem;
     }
@@ -107,4 +108,10 @@ body {
 .about-content p {
     font-size: 1.2rem;
     line-height: 1.6;
+}
+
+.nav-links a.active {
+    color: #ff6f61; /* Цвет выделения */
+    font-weight: bold; /* Жирный шрифт */
+    border-bottom: 2px solid #ff6f61; /* Подчеркивание */
 }

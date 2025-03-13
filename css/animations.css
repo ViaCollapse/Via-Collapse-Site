@@ -41,3 +41,8 @@
 .glow-effect:hover::after {
     opacity: 1;
 }
+
+.nav-links a.active:hover {
+    color: #fff; /* Меняем цвет при наведении */
+    border-bottom-color: #fff; /* Меняем цвет подчеркивания */
+}

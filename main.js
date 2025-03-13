@@ -17,3 +17,16 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+// Добавление класса active к текущей ссылке
+document.addEventListener('DOMContentLoaded', () => {
+    const currentPage = document.body.id; // Получаем ID текущей страницы
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    navLinks.forEach(link => {
+        const href = link.getAttribute('href').replace('.html', ''); // Убираем .html из href
+        if (href === currentPage) {
+            link.classList.add('active'); // Добавляем класс active
+        }
+    });
+});
