@@ -87,3 +87,24 @@ body {
         font-size: 1.2rem;
     }
 }
+
+.about {
+    padding: 5rem 2rem;
+    background-color: #1a1a1a;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
